@@ -1,3 +1,10 @@
+let result = mash();
+console.log(result);
+
+function mash(){
+    return "You will live in a " + getHome() + ", travel to " + getTravelCount() + " countries, have a pet " + getPet() + ", have a job as a " + getJob() + ", and go to " + getCollege() + "!";
+}
+
 function randNumGenerator(num){
     return Math.floor(Math.random() * (num));
 }
