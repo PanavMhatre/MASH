@@ -67,3 +67,7 @@ function getJob(){
         }
     }
 }
+function getTravelCount(){
+    let randNum = randNumGenerator(100);
+    return randNum;
+}
