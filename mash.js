@@ -71,3 +71,25 @@ function getTravelCount(){
     let randNum = randNumGenerator(100);
     return randNum;
 }
+function getPet(){
+    let randomPets = ["Dog", "Cat", "Fish", "Lizard"];
+    let split = randNumGenerator(101);
+    let input = process.argv[3];
+    if(input === undefined){
+        let randNum = randNumGenerator(4);
+        if(randNum === 4){
+            console.log("You got really unlucky :(");
+        }
+        return randomPets[randNum];
+    }else{
+        if(split >= 50){
+            return input;
+        }else{
+            let randNum = randNumGenerator(4);
+            if(randNum === 4){
+                console.log("You got really unlucky :(");
+            }
+            return randomPets[randNum];
+        }
+    }
+}
