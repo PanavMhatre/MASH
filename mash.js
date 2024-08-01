@@ -45,3 +45,25 @@ function getCollege(){
         }
     }
 }
+function getJob(){
+    let job = ["Doctor", "Lawyer", "Engineer", "Teacher"];
+    let split = randNumGenerator(101);
+    let input = process.argv[5];
+    if(input === undefined){
+        let randNum = randNumGenerator(4);
+        if(randNum === 4){
+            console.log("You got really unlucky :(");
+        }
+        return job[randNum];
+    }else{
+        if(split >= 50){
+            return input;
+        }else{
+            let randNum = randNumGenerator(4);
+            if(randNum === 4){
+                console.log("You got really unlucky :(");
+            }
+            return job[randNum];
+        }
+    }
+}
