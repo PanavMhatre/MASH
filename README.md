@@ -1,7 +1,7 @@
 **Overview**
 
 
-Welcome to my favorite game called Mash made from JS! This project serves as an introduction to basic web development using JS. I created a game using the console that you can follow through with. Hope you  can enjoy! To make it your own change the arrays to your items!!
+Welcome to my favorite game called Mash made from JS! MASH is game where you have different items and you random select (https://www.youtube.com/watch?v=iaZ9m39-BbE) This project serves as an introduction to basic web development using JS. I created a game using the console that you can follow through with. Hope you  can enjoy! To make it your own change the arrays to your items!!
 
 **Contributing**
 
